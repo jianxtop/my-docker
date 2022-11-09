@@ -41,3 +41,9 @@ ENTRYPOINT
 # 最后退出Dockerfile进行构建镜像.
 # 格式：docker build -t 镜像名称:tag标识 .
 ```
+
+## 阿里云Docker Registry
+```shell
+# 目前最新有 0.40.0
+docker pull registry.cn-hangzhou.aliyuncs.com/jianx/frp:[镜像版本号]
+```
