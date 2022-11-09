@@ -44,6 +44,19 @@ ENTRYPOINT
 
 ## 阿里云Docker Registry
 ```shell
-# 目前最新有 0.40.0
+# 目前最新有 frps-0.40.0
 docker pull registry.cn-hangzhou.aliyuncs.com/jianx/frp:[镜像版本号]
 ```
+
+## 当前的访问地址有以下几种方式：
+- [gitea](http://gitea.frp.jianx.top/jianx/my-docker)
+
+<img data-modal-trigger="badge-modal" src="https://img.shields.io/badge/Stars-5-blue?logo=gitea&style=social">
+
+- [gitee](https://gitee.com/jtop-cloud/my-docker)
+
+<img data-modal-trigger="badge-modal" src="https://img.shields.io/badge/Stars-143-blue?logo=gitee&style=social">
+
+- [github](https://github.com/70687547/my-docker)
+
+<img data-modal-trigger="badge-modal" src="https://img.shields.io/badge/Stars-26-blue?logo=github&style=social">
