@@ -42,12 +42,14 @@ ENTRYPOINT
 # 格式：docker build -t 镜像名称:tag标识 .
 ```
 
+---
 ## 阿里云Docker Registry
 ```shell
 # 目前最新有 frps-0.40.0
 docker pull registry.cn-hangzhou.aliyuncs.com/jianx/frp:[镜像版本号]
 ```
 
+---
 ## 当前的访问地址有以下几种方式：
 - [gitea](http://gitea.frp.jianx.top/jianx/my-docker)
 
@@ -60,3 +62,19 @@ docker pull registry.cn-hangzhou.aliyuncs.com/jianx/frp:[镜像版本号]
 - [github](https://github.com/70687547/my-docker)
 
 <img data-modal-trigger="badge-modal" src="https://img.shields.io/badge/Stars-26-blue?logo=github&style=social">
+
+---
+## 集中查询官方开源镜像的方式
+- Docker命令 可通过 docker --help 进行查看
+```
+# STARS=100  是>=100的意思，这个至少可以过滤掉很多非官方的镜像，STARS比较少的也没有多大必要看了吧
+# OFFICIAL [OK] 的就是官方的镜像
+docker search nginx --filter=STARS=100
+```
+
+- 通过 [dockerhub.com](https://hub.docker.com/search) 进行页面查看
+```
+# 带有   DOCKER OFFICIAL IMAGE  的就是官方的镜像
+```
+
+
