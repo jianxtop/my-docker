@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  frps:
+    image: registry.cn-hangzhou.aliyuncs.com/jianx/frp:frps-0.40.0
+    container_name: frps
+    network_mode: host
+    restart: always
+    volumes:
+      - $DOCKER_DATA_PATH/frps/frps.ini:/etc/frp/frps.ini
+      - $DOCKER_DATA_PATH/frps/logs/:/var/log/
+# 需要提前export一个 DOCKER_DATA_PATH， yml里面才能正常使用
