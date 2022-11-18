@@ -63,6 +63,8 @@ docker pull registry.cn-hangzhou.aliyuncs.com/jianx/frp:[镜像版本号]
 
 <img data-modal-trigger="badge-modal" src="https://img.shields.io/badge/Stars-26-blue?logo=github&style=social">
 
+<img src="https://github.com/70687547/my-docker/stargazers">
+
 ---
 ## 集中查询官方开源镜像的方式
 - Docker命令 可通过 docker --help 进行查看
